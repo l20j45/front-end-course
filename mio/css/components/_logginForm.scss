@@ -1,0 +1,42 @@
+@use 'globales'as *;
+
+.title {
+    &__iconLoggin {
+        margin-bottom: 60px;
+    }
+}
+
+.form__form--loggin {
+
+    margin-top: -100px;
+
+
+    input {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    button {
+        max-width: 300px;
+        align-self: auto;
+    }
+}
+.form__forgotpassword{
+    margin-top: 30px;
+    text-align: center;
+    font-size: $sm;
+    color: $hospital-green;
+}
+
+.button__signup{
+    width: 80vw;
+    max-width: 300px;
+    align-self: auto;
+    margin-top: 0 auto;
+    height:50px;
+    border-radius: $border-radius;
+    border: 1px solid $hospital-green;
+    background-color: $white;
+    color: $hospital-green;
+    font-size: $lg;
+}
